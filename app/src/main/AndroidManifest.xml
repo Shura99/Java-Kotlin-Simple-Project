@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".lab09"
+            android:label="Java SE" />
+        <activity
+            android:name=".lab09_wykl"
+            android:label="Java SE - Wykład" />
+        <activity android:name=".lab09_quiz"
+            android:label="Java SE - Quiz"/>
+        <activity android:name=".lab09_linki"
+            android:label="Java SE - Źródła Informacji" />
+        <activity android:name=".lab09_kody"
+            android:label="Java SE - Kody Źródłowe" />
+
+        <activity
+            android:name=".lab12"
+            android:label="Java Android" />
+        <activity
+            android:name=".lab12_quiz"
+            android:label="Java Android - Quiz" />
+        <activity
+            android:name=".lab12_linki"
+            android:label="Java Android - Źródła Informacji" />
+        <activity
+            android:name=".lab12_kody"
+            android:label="Java Android - Kody Źródłowe" />
+        <activity
+            android:name=".lab12_wykl"
+            android:label="Java Android - Wykład" />
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
